@@ -1,0 +1,51 @@
+body {
+    margin:0;
+}
+.cornermessage {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: pink;
+    color: blueviolet;
+    margin: 1rem;
+    background-image:url(https://giffiles.alphacoders.com/108/108633.gif);
+    background-clip: border-box;
+    padding: 2em;
+    font-size: 2em;
+    box-shadow: -20px 20px 10px cornflowerblue;
+
+}
+.prayge {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    object-position: -300px;
+}
+.welcome {
+    /* once "absolute" is typed, you can move it anywhere in the page*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: cornflowerblue;*/
+    /*viewport width, 8% width of the screen*/
+    font-size: 7vw;
+    mix-blend-mode: color-dodge;
+    text-shadow: 9px 9px green, 4px 4px blue;
+    /*last unit is blur*/
+    border: 20px dotted pink;
+}
+.botanicface {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* vh = viewport height*/
+    height: 100vh;
+    /* object fit determines how a video or image will fit in the space it occupies */
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    /* only go to -1, then 0, then anything in the positive - layers*/
+}
+
