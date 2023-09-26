@@ -1,0 +1,21 @@
+.html{
+    scroll-behavior: smooth;
+}
+
+.botanicface {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /*top: 0;
+    left: 0;
+    width: 100%;*/
+    /* vh = viewport height*/
+    height: 100vh;
+    /* object fit determines how a video or image will fit in the space it occupies */
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    /* only go to -1, then 0, then anything in the positive - layers*/
+    
+}
