@@ -2,9 +2,13 @@
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: darkslategray; 
+}
+
 .botanicface {
     position: absolute;
-    left: 50%;
+    left: 80%;
     top: 50%;
     transform: translate(-50%, -50%);
     /*top: 0;
@@ -17,5 +21,19 @@
     object-position: center;
     z-index: -1;
     /* only go to -1, then 0, then anything in the positive - layers*/
-    
+}
+
+.han {
+    position: absolute;
+    bottom: 0;
+}
+
+.box{
+    background-color: cadetblue;
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    /*if you want to center something in a box*/
+    display: grid;
+    place-items: center;
 }
