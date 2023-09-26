@@ -4,6 +4,7 @@ html {
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:floralwhite;
 }
 
 .box{
@@ -53,21 +54,37 @@ body {
     right: 0; /*positioning within the parent, but would have flown out of viewpoint to the right*/
 }
 
+.sticky {
+    position: sticky;
+    background-color:orange;
+    top: 50px; /*sticks to page*/
+}
+
 .dialog-box {
     position: relative;
+    margin: auto;
     background-color: cornflowerblue;
-    width: 10rem;
-    height: 5rem;
+    width: 30rem;
+    height: 20rem;
+    font-size: large;
+    display: block;
 }
 
 .close-button {
-    width: 25%;
-    height: 25%;
+    width: 10%;
+    height: 10%;
     margin: 0;
     position: absolute;
     top: 0;
     right: 0;
     background-color: brown;
     color: white;
-
 }
+
+.bouncy {
+    position: sticky;
+    background-color:orange;
+    top:0;
+    left:0;
+}
+
