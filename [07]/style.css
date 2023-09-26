@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box{
+    background-color: cadetblue;
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    /*if you want to center something in a box*/
+    display: grid;
+    place-items: center;
+}
+
+/*document flow - when things are set to absolute, it floats around, no longer static in position*/
+/*top to bottom of properties matters, this is written second, so it overrides the above command*/
+.absolute {
+    background-color: lightblue;
+    position: absolute;
+    right: 20px;
+    top: 2000px;
+}
+
+/*fixed to the viewport*/
+.fixed {
+    position: fixed;
+    background-color: yellowgreen;
+    right: 0;
+    bottom: 300px;
+}
+
+
+.relative {
+    position: relative; /* element stays in position flow, very useful as a parent element for specific placements -- see child*/
+    background-color: palevioletred;
+    /*left: 100px;
+    top: 50px;*/
+    width: 10rem;
+    height: 10rem; /*overriding initial sizes*/
+    display: block;
+}
+
+.child {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0; /*positioning within the parent, but would have flown out of viewpoint to the right*/
+}
+
+.dialog-box {
+    position: relative;
+    background-color: cornflowerblue;
+    width: 10rem;
+    height: 5rem;
+}
+
+.close-button {
+    width: 25%;
+    height: 25%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: brown;
+    color: white;
+
+}
