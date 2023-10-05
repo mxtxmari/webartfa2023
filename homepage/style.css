@@ -1,34 +1,45 @@
 .html{
     scroll-behavior: smooth;
 }
-
-body{
-    background-color: darkslategray; 
+.cowleft {
+    top: 0;
+    left: 0;
 }
+.cowright{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bio{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;;
+    line-height: 1.7;
+    color: bisque;
+    background-color:cadetblue ;}
 
 .botanicface {
-    position: absolute;
-    left: 80%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    /*top: 0;
+    position: fixed;
+    top: 0;
     left: 0;
-    width: 100%;*/
+    width: 100%;
     /* vh = viewport height*/
     height: 100vh;
     /* object fit determines how a video or image will fit in the space it occupies */
     object-fit: cover;
     object-position: center;
     z-index: -1;
-    /* only go to -1, then 0, then anything in the positive - layers*/
 }
+.introphoto{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 12px;
+    display: block;
 
-.han {
-    position: absolute;
-    bottom: 0;
 }
-
 .box{
+    position: relative;
     background-color: cadetblue;
     width: 5rem;
     height: 5rem;
@@ -37,3 +48,18 @@ body{
     display: grid;
     place-items: center;
 }
+
+.han {
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.animus {
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+
+
