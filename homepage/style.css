@@ -61,5 +61,46 @@
     padding: 12px;
 }
 
+.attraction {
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+}
 
+h2{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;;
+    line-height: 1.7;
+    color: bisque;
+    background-color:cadetblue ;
+}
 
+h3{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;;
+    line-height: 1.7;
+    color: bisque;
+    background-color:cadetblue ;
+}
+
+p{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;;
+    line-height: 1.7;
+    color: bisque;
+    background-color:cadetblue ;
+}
+
+.photos{
+    position: absolute;
+    left: 0;
+    top: 1500px;
+    margin: 0 auto;
+    padding: 12px;
+}
