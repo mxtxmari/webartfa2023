@@ -1,54 +1,46 @@
 .html{
     scroll-behavior: smooth;
 }
-.cowleft {
-    top: 0;
-    left: 0;
-}
-.cowright{
-    position: absolute;
-    top: 0;
+.cat1{
+    position:absolute;
     right: 0;
+    top: 0;
 }
 .bio{
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
-    padding: 12px;
+    padding: 50px;
     font-family: 'Poppins', sans-serif;;
     line-height: 1.7;
     color: bisque;
-    background-color:cadetblue ;}
+    background-color: gray;
+background-image: url(https://img1.picmix.com/output/stamp/normal/2/2/7/3/1983722_55200.gif);}
 
-.botanicface {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* vh = viewport height*/
-    height: 100vh;
-    /* object fit determines how a video or image will fit in the space it occupies */
-    object-fit: cover;
-    object-position: center;
-    z-index: -1;
+
+body{
+    background-color: black;
+    background-image:url(https://img1.picmix.com/output/stamp/normal/2/2/7/3/1983722_55200.gif);
 }
 .introphoto{
-    max-width: 500px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 12px;
     display: block;
 
 }
-.box{
-    position: relative;
-    background-color: cadetblue;
-    width: 5rem;
-    height: 5rem;
-    margin: 0.5rem;
-    /*if you want to center something in a box*/
-    display: grid;
-    place-items: center;
+.container {
+    display: flex;
 }
-
+.botanicface{
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+}
+.canyoufeelityet{
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+}
 .han {
     display: block;
     margin: 0 auto;
@@ -66,25 +58,49 @@
     margin: 0 auto;
     padding: 12px;
 }
+.supastar {
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+}
+h1{
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color:cornsilk;
+    background-color:rgb(4, 7, 38);
+    border: dotted pink; 
+    box-shadow:pink ;
+    text-shadow: 9px 9px rgb(111, 0, 128), 4px 4px rgb(21, 0, 255);
 
+}
 h2{
     max-width: 500px;
     margin: 0 auto;
     padding: 12px;
     font-family: 'Poppins', sans-serif;;
     line-height: 1.7;
-    color: bisque;
-    background-color:cadetblue ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color:cornsilk;
+    background-color:rgb(20, 12, 44);
+    border: dotted pink; 
+    box-shadow:pink ;
+    text-shadow: 9px 9px rgb(111, 0, 128), 4px 4px rgb(21, 0, 255);
 }
 
 h3{
     max-width: 500px;
     margin: 0 auto;
-    padding: 12px;
+    padding: 5px;
     font-family: 'Poppins', sans-serif;;
-    line-height: 1.7;
-    color: bisque;
-    background-color:cadetblue ;
+    color:cornsilk;
+    background-color:rgb(20, 12, 44);
+
+    box-shadow:pink ;
+    text-shadow: 9px 9px rgb(111, 0, 128), 4px 4px rgb(21, 0, 255);
 }
 
 p{
@@ -93,14 +109,70 @@ p{
     padding: 12px;
     font-family: 'Poppins', sans-serif;;
     line-height: 1.7;
-    color: bisque;
-    background-color:cadetblue ;
+    color: bisque ;
 }
 
-.photos{
+.animus1{
     position: absolute;
     left: 0;
-    top: 1500px;
+    top: 1600px;
+    margin: 0 auto;
+    padding: 12px;
+}
+.animus2{
+    position: absolute;
+    left: 0;
+    top: 1400px;
+    margin: 0 auto;
+    padding: 12px;
+}
+.animus3{
+    position: absolute;
+    right: 0;
+    top: 1400px;
+    margin: 0 auto;
+    padding: 12px;
+}
+.animus4{
+    position: absolute;
+    right: 0;
+    top: 1600px;
+    margin: 0 auto;
+    padding: 12px;
+}
+.animus5{
+    position: absolute;
+    right: 0;
+    top: 900px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.attraction1{
+    position: absolute;
+    right: 0;
+    top: 1900px;
+    margin: 0 auto;
+    padding: 12px;
+}
+.attraction2{
+    position: absolute;
+    right: 0;
+    top: 2150px;
+    margin: 0 auto;
+    padding: 12px;
+}
+.attraction3{
+    position: absolute;
+    left: 0;
+    top: 1800px;
+    margin: 0 auto;
+    padding: 12px;
+}
+.attraction4{
+    position: absolute;
+    left: 0;
+    top: 2200px;
     margin: 0 auto;
     padding: 12px;
 }
