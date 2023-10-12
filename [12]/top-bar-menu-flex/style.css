@@ -1,0 +1,29 @@
+
+
+.top-bar{
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    display: flex;
+    box-sizing: border-box; 
+    /* 100% width and the padding is kept within */
+}
+
+.logo{
+    font-size: 3rem;
+    border:2px solid coral;
+}
+
+.top-bar-menu{
+    border: 2px solid chocolate;
+    display: flex;
+    gap: 1rem;
+    flex: wrap;
+}

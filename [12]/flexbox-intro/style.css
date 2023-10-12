@@ -1,0 +1,44 @@
+.flex-container-row{
+    --spacing: 20px; /*variables VERY 
+    useful*/
+    display: flex;
+    flex-direction: row; /*default direction*/
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;/*won't squeeze or resize, will wrap downwards*/
+    gap: var(--spacing);
+    padding: var(--spacing);
+
+    height: 500px;
+}
+
+.flex-item{
+    --box-size: 50px;
+    width: var(--box-size);   
+    height: var(--box-size);
+    background-color: lightblue;
+    font-size: 2rem;
+    /*do not use margin in flex-item, use gap and padding in flex-container*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-column{
+    --spacing: 20px;
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(250, 157, 124);
+    margin-bottom: 30px;
+
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    flex-wrap: wrap;/*won't squeeze or resize, will wrap downwards*/
+
+    gap: var(--spacing);
+    padding: var(--spacing);
+    height: 600px;
+}
