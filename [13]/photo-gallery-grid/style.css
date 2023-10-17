@@ -24,7 +24,7 @@ header a{
     color: white;
 }
 
-header > * {
+header > *{
     /* border: 2px solid green; */
 }
 
@@ -49,7 +49,7 @@ header > * {
 }
 
 .top-menu a:hover{
-    color: yellow;
+    color: cadetblue;
 }
 
 /* MAIN BLOCK  */
@@ -58,27 +58,28 @@ main{
     margin: 5rem auto;
 }
 
-.page.title{
+.page-title {
     text-align: center;
     padding: 4rem;
-    background-image: url('//picsum.photos/id/500/500/100');
+    background-image: url('//picsum.photos/id/115/1920/600');
+    color: white;
 }
+
 img{
     display: block; 
     /* make them behave like block elements to remove small gap in between them */
 }
 
 .gallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* gap: 1rem; */
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* fr = fraction, unit just for grid, 2 of fr, 2 coloums, 3 of fr, 3 columns */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* magic css grid */
 }
+
 .gallery img{
-    width: min(300px, 100%);
-    /* takes the minimum of these 2 values */
-    flex-grow: 1;
-    max-width: 600px;
+    width: 100%;
 }
 
 footer{
